@@ -1,8 +1,14 @@
 aid: getharley
 name: GetHarley
-description: 'GetHarley is a company surfaced as a portfolio company of index-ventures and added to the
-  API Evangelist network as a stub for enrichment. Sector: business-applications. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: 'GetHarley is a UK-based telehealth and skincare platform delivering personalised, medical-grade
+  skincare through online consultations. Patients answer questions about their skin concerns, book a video
+  consultation, and are matched with one of a network of over 1,000 licensed dermatologists, aesthetic
+  doctors, and plastic surgeons, who recommend a tailored regimen of medical-grade products delivered to
+  the patient. GetHarley operates both a patient-facing storefront and a practitioner platform used by
+  clinicians to manage recommendations, orders, and client relationships. Backed by Index Ventures, the
+  company addresses concerns such as acne, fine lines, pigmentation, and ageing. As of this profile,
+  GetHarley does not publish a public developer API, SDKs, or an MCP server; this record captures its
+  identity, web properties, and probed domain-security posture for the API Evangelist network.'
 url: https://raw.githubusercontent.com/api-evangelist/getharley/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +16,30 @@ x-backed-by:
 - index-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.getharley.com/_next/static/media/getharley-cover.3sz1ufmqyim5m.jpg
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Business Applications
+- Telehealth
+- Healthcare
+- Skincare
+- Dermatology
+- E-commerce
+- Consumer
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +49,24 @@ maintainers:
 common:
 - type: Website
   url: http://www.getharley.com
+- type: Blog
+  url: https://www.getharley.com/knowledge
+- type: Support
+  url: mailto:hello@getharley.com
+- type: SignUp
+  url: https://www.getharley.com/book-a-consultation
+- type: Login
+  url: https://www.getharley.com/patients/login
+- type: PrivacyPolicy
+  url: https://www.getharley.com/legal/privacy-statement
+- type: TermsOfService
+  url: https://www.getharley.com/legal/website-terms-and-conditions
+- type: DomainSecurity
+  url: security/getharley-domain-security.yml
+- type: LLMsTxt
+  url: llms/getharley-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
